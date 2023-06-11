@@ -12,7 +12,7 @@ function Navbar() {
     <nav className="w-full max-w-7xl flex items-center fixed top-0 z-50 py-4 px-8">
       <div className="w-full max-w-7xl flex justify-between items-center mx-auto">
         <Link className="bg-bg-main rounded-full" to="/">
-          <img src="/public/vl-logo-no-bg.png" alt="Logo" className="h-14" />
+          <img src="vl-logo-no-bg.png" alt="Logo" className="h-14" />
         </Link>
         <ul className="hidden sm:flex bg-bg-main">
           {navLinks.map((link) => (

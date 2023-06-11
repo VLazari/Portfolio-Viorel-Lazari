@@ -1,3 +1,6 @@
+import AuctionHouse from '../../src/assets/pagePreview/AuctionHouse.png';
+import Holidaze from '../../src/assets/pagePreview/Holidaze.png';
+import Shop from '../../src/assets/pagePreview/Shop.png';
 const navLinks = [
   {
     id: '/',
@@ -68,7 +71,7 @@ const projects = [
       'React Leaflet,',
       'React Datepicker.',
     ],
-    imageURL: '/src/assets/pagePreview/Holidaze.png',
+    imageURL: Holidaze,
     deployURL: 'https://rad-toffee-419011.netlify.app/',
     gitHubURL: 'https://github.com/VLazari/holidaze',
   },
@@ -77,7 +80,7 @@ const projects = [
     description:
       'An eCom store using React, build as a school project. It includes features like product filtering, cart management, and form validation. The project demonstrates my knowledge in React and showcases a responsive design, clean code, and deployment on Netlify.',
     tech: ['React,', 'Redux Toolkit,', 'Tailwind CSS.'],
-    imageURL: '/src/assets/pagePreview/Shop.png',
+    imageURL: Shop,
     deployURL: 'https://kaleidoscopic-speculoos-2c97e3.netlify.app',
     gitHubURL: 'https://github.com/VLazari/react-project-ca',
   },
@@ -86,7 +89,7 @@ const projects = [
     description:
       'The project aims to create an auction website, that will provide users with a platform to add items for auction and bid on items listed by others.The project specifically focuses on developing the front-end application for the API, as all API functionality is managed by an existing application.',
     tech: ['HTML,', 'Java Script,', 'SCSS,', 'Bootstrap.'],
-    imageURL: '/src/assets/pagePreview/AuctionHouse.jpg',
+    imageURL: AuctionHouse,
     deployURL: 'https://vermillion-lollipop-373cf8.netlify.app',
     gitHubURL: 'https://github.com/VLazari/Auction-house',
   },
