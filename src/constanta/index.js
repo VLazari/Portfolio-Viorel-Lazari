@@ -86,7 +86,7 @@ const projects = [
     description:
       'The project aims to create an auction website, that will provide users with a platform to add items for auction and bid on items listed by others.The project specifically focuses on developing the front-end application for the API, as all API functionality is managed by an existing application.',
     tech: ['HTML,', 'Java Script,', 'SCSS,', 'Bootstrap.'],
-    imageURL: '/src/assets/pagePreview/AuctionHouse.png',
+    imageURL: '/src/assets/pagePreview/AuctionHouse.jpg',
     deployURL: 'https://vermillion-lollipop-373cf8.netlify.app',
     gitHubURL: 'https://github.com/VLazari/Auction-house',
   },
