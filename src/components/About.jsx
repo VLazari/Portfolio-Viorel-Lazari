@@ -36,7 +36,9 @@ function About() {
             Skills
           </h3>
           {technologies.map((tec) => (
-            <p>{tec.name}</p>
+            <p key={tec.name} className="w-fit p-1 bg-bg-main mx-auto">
+              {tec.name}
+            </p>
           ))}
         </div>
       </div>
