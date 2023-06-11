@@ -31,7 +31,7 @@ function Hero() {
           </Canvas>
           <img
             className="absolute bg-transparent top-0 bottom-0 left-0 right-0 m-auto w-60 h-60 md:w-72 md:h-72 object-contain rounded-full"
-            src="/public/Viorel.png"
+            src="Viorel.png"
             alt=""
           />
         </div>
